@@ -1,0 +1,118 @@
+/* css/index.css */
+
+/* --- BANNER --- */
+.banner-section { 
+    margin: 0; 
+    margin-bottom: 30px;
+}
+.banner-slider { width: 100%; overflow: hidden; }
+
+.slider-track {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none; /* Firefox */
+}
+.slider-track::-webkit-scrollbar { display: none; } /* Chrome */
+
+.slide {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+}
+/* Banner responsivo (mantém aspect ratio) */
+.slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* --- TÍTULOS DE SEÇÃO --- */
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-text-main);
+    margin: 0 0 20px 20px; /* Alinhado a esquerda com margem */
+    position: relative;
+    padding-left: 10px;
+    border-left: 4px solid var(--color-brand-primary);
+}
+
+
+/* --- COLEÇÕES (Subcategorias) --- */
+.collections-carousel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px 20px 30px; /* Padding extra embaixo para sombra */
+    scrollbar-width: none;
+}
+.collections-carousel::-webkit-scrollbar { display: none; }
+
+.collection-item { 
+    text-align: center; 
+    flex: 0 0 90px; /* Largura fixa */
+}
+
+.collection-img-wrapper {
+    width: 85px; height: 85px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    overflow: hidden;
+    background: #fff;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    display: flex; align-items: center; justify-content: center;
+}
+
+.collection-item:hover .collection-img-wrapper {
+    border-color: var(--color-brand-primary);
+    transform: scale(1.05);
+}
+
+.collection-img-wrapper img {
+    width: 100%; height: 100%; object-fit: cover;
+}
+
+.collection-name { 
+    font-size: 0.85rem; font-weight: 600; 
+    color: var(--color-text-main);
+    display: block; 
+}
+
+
+/* --- GRIDS DE PRODUTOS --- */
+.destaques-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 Colunas no Mobile */
+    gap: 15px;
+    padding: 0 15px;
+    margin-bottom: 40px;
+}
+
+/* Carrossel de Mais Vendidos */
+.best-sellers-carousel {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 0 15px 30px;
+}
+.best-sellers-carousel .common-card {
+    flex: 0 0 200px; /* Largura fixa do card no scroll horizontal */
+}
+
+@media(min-width: 768px) {
+    .destaques-grid { 
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 30px; 
+        max-width: 1200px; margin: 0 auto 50px;
+    }
+    .best-sellers-carousel {
+        display: grid; /* No desktop vira grid também */
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 1200px; margin: 0 auto 50px;
+        overflow: visible;
+    }
+}

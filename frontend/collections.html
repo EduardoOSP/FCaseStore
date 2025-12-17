@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coleções</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/collections.css">
+</head>
+
+<body class="page-collections">
+    
+    <header>
+        <button class="btn-open-menu"><i class="fas fa-bars"></i></button>
+        <a href="/" class="logo"><h1>FCaseStore</h1></a>
+        <div class="header-icons">
+            <a href="checkout.html" class="cart-link">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="header-cart-count">0</span>
+            </a>
+        </div>
+    </header>
+
+    <div class="mobile-menu"></div>
+    <div class="overlay"></div>
+
+    <main class="collections-container">
+        
+        <!-- Sidebar Filtros -->
+        <aside class="filters-sidebar">
+            <div class="filters-header">
+                <h2>Filtrar</h2>
+                <button class="filters-close-btn"><i class="fas fa-times"></i></button>
+            </div>
+            
+            <div class="filters-body" id="filters-container">
+                <!-- Filtros gerados via JS -->
+            </div>
+            
+            <div class="filters-footer">
+                <button class="btn-apply-filters">Ver Resultados</button>
+            </div>
+        </aside>
+
+        <div class="products-content">
+            <div class="products-header">
+                <div class="breadcrumb">
+                    <a href="/">Início</a> <span id="breadcrumb-text">/ Todos</span>
+                </div>
+                <h1 class="products-title">Carregando...</h1>
+                
+                <div class="products-controls">
+                    <button class="btn-filter-mobile">
+                        <i class="fas fa-filter"></i> Filtrar
+                    </button>
+                </div>
+            </div>
+
+            <div class="products-grid">
+                <!-- Cards via JS -->
+            </div>
+        </div>
+    </main>
+
+    <div class="cart-container"></div>
+    <div class="cart-overlay"></div>
+
+    <footer class="footer"></footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/collections.js"></script>
+</body>
+</html>

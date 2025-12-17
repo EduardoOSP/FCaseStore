@@ -1,0 +1,447 @@
+{
+    "banners": [
+        {
+            "id": 1,
+            "image": "../img/1.png",
+            "alt": "Promoção de Capas",
+            "link": "/collections.html"
+        },
+        {
+            "id": 2,
+            "image": "../img/2.png",
+            "alt": "Novos iPhones 17",
+            "link": "/collections.html"
+        },
+        {
+            "id": 3,
+            "image": "../img/3.png",
+            "alt": "Novos iPhones 17",
+            "link": "/collections.html"
+        }
+    ],
+    "products": [
+        {
+            "id": "p001",
+            "active": true,
+            "name": "Capa de Silicone Soft Touch",
+            "category": "Capas",
+            "subcategory": "Silicone",
+            "description": "Capa premium com toque aveludado, interior em microfibra e proteção completa para as câmeras.",
+            "basePrice": 9.99,
+            "promotionalPrice": 20.00,
+            "flags": {
+                "isFeatured": true,
+                "isBestSeller": true,
+                "isNew": true
+            },
+            "tags": [
+                "silicone",
+                "colorida",
+                "proteção",
+                "soft-touch"
+            ],
+            "images": [
+                "https://down-br.img.susercontent.com/file/br-11134207-7r98r-llp6tl5pddfb88@resize_w450_nl.webp",
+                "https://down-br.img.susercontent.com/file/br-11134207-7r98s-llp6f7gp401j88@resize_w450_nl.webp",
+                "https://down-br.img.susercontent.com/file/br-11134207-7r98s-llp6f7gp2lh3aa.webp"
+            ],
+            "optionsSummary": {
+                "hasModelSelection": true,
+                "hasColorSelection": true,
+                "models": [
+                    "iPhone 17",
+                    "iPhone 17 Air",
+                    "iPhone 17 Pro",
+                    "iPhone 17 Pro Max",
+                    "iPhone 16",
+                    "iPhone 16 Plus",
+                    "iPhone 16 Pro",
+                    "iPhone 16 Pro Max",
+                    "iPhone 16e",
+                    "iPhone 15",
+                    "iPhone 15 Plus",
+                    "iPhone 15 Pro",
+                    "iPhone 15 Pro Max",
+                    "iPhone 14",
+                    "iPhone 14 Plus",
+                    "iPhone 14 Pro",
+                    "iPhone 14 Pro Max",
+                    "iPhone 13",
+                    "iPhone 13 mini",
+                    "iPhone 13 Pro",
+                    "iPhone 13 Pro Max",
+                    "iPhone 12",
+                    "iPhone 12 mini",
+                    "iPhone 12 Pro",
+                    "iPhone 12 Pro Max",
+                    "iPhone 11",
+                    "iPhone 11 Pro",
+                    "iPhone 11 Pro Max"
+                ],
+                "colors": [
+                    {
+                        "name": "Azul",
+                        "hex": "#1E88E5",
+                        "cardImage": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/642794/xlarge/Capa-Capinha-Case-Silicone-Cover-Premium-Aveludada-Camur-a-Com-Logo-Compat-vel-Iphone-15-Pro-Max-Azul-Bic_1741134646.png"
+                    },
+                    {
+                        "name": "Branco",
+                        "hex": "#FFFFFF",
+                        "cardImage": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/639994/xlarge/Capa-Capinha-Case-Silicone-Cover-Premium-Aveludada-Com-Logo-Compat-vel-Iphone-14-Branco_1741177841.png"
+                    },
+                    {
+                        "name": "Laranja",
+                        "hex": "#FF9800",
+                        "cardImage": "https://m.media-amazon.com/images/I/61y9yt8EdVL._AC_UF1000,1000_QL80_.jpg"
+                    },
+                    {
+                        "name": "Lilás",
+                        "hex": "#C8A2C8",
+                        "cardImage": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/640005/large/Capa-Capinha-Case-Silicone-Cover-Premium-Aveludada-Com-Logo-Compat-vel-Iphone-14-Lilas_1741177844.png"
+                    },
+                    {
+                        "name": "Preto",
+                        "hex": "#000000",
+                        "cardImage": "https://cdn.awsli.com.br/2569/2569613/produto/24001410271cc74f567.jpg"
+                    },
+                    {
+                        "name": "Rosa Neon",
+                        "hex": "#FF2D95",
+                        "cardImage": "https://down-br.img.susercontent.com/file/br-11134258-81z1k-mgqxcul8eyv469"
+                    },
+                    {
+                        "name": "Rosa Pink",
+                        "hex": "#FF1493",
+                        "cardImage": "https://down-br.img.susercontent.com/file/br-11134258-81z1k-mgqxcul8eyv469"
+                    },
+                    {
+                        "name": "Roxo Claro",
+                        "hex": "#B39DDB",
+                        "cardImage": "https://down-br.img.susercontent.com/file/br-11134258-81z1k-mgqxcul8eyv469"
+                    },
+                    {
+                        "name": "Tinto",
+                        "hex": "#7B1E1E",
+                        "cardImage": "https://down-br.img.susercontent.com/file/br-11134258-81z1k-mgqxcul8eyv469"
+                    },
+                    {
+                        "name": "Verde",
+                        "hex": "#2E7D32",
+                        "cardImage": "https://down-br.img.susercontent.com/file/br-11134258-81z1k-mgqxcul8eyv469"
+                    },
+                    {
+                        "name": "Vermelho",
+                        "hex": "#D32F2F",
+                        "cardImage": "https://down-br.img.susercontent.com/file/br-11134258-81z1k-mgqxcul8eyv469"
+                    }
+                ]
+            },
+            "variants": [
+                {
+                    "id": "iph17-silicone-preto",
+                    "model": "iPhone 17",
+                    "color": "Preto",
+                    "price": 59.90,
+                    "stock": 20,
+                    "gallery": [
+                        "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRAiqiK3m_05jNRlovhzQlxCr4YHSRqARePn4gh1FG-IvXf30jfelKh1hcj3GgdtYg1Fp5fXrnopcJi5N0V9urmiyp9cmU2cvmuLtTbgs0PYxUuemFEmNOE",
+                        "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTtvlbogRMAAzc3Jc8hqbklECvrU6rm6Wltg_gaQ7OSyUR0vLAL57ZgBnyY3rU5D5vvddXByB0bYA7nhEDlcNApMK-M5ulQNLDDxt80eBI"
+                    ]
+                },
+                {
+                    "id": "iph16-silicone-preto",
+                    "model": "iPhone 16",
+                    "color": "Azul",
+                    "price": 54.90,
+                    "stock": 30,
+                    "gallery": [
+                        "https://down-br.img.susercontent.com/file/br-11134207-23030-9olizfdqlkovee@resize_w450_nl.webp",
+                        "https://down-br.img.susercontent.com/file/br-11134207-23030-m6zjzfdqlkov61@resize_w450_nl.webp"
+                    ]
+                },
+                {
+                    "id": "iph15-silicone-preto",
+                    "model": "iPhone 15",
+                    "color": "Laranja",
+                    "price": 54.90,
+                    "stock": 30,
+                    "gallery": [
+                        "https://down-br.img.susercontent.com/file/d22d31d2ce05f79789a68469ed94a77c@resize_w450_nl.webp",
+                        "https://down-br.img.susercontent.com/file/cn-11134207-7r98o-llpaha6fqhpee9@resize_w450_nl.webp"
+                    ]
+                },
+                {
+                    "id": "iph14-silicone-roxo",
+                    "model": "iPhone 14",
+                    "color": "Roxo Claro",
+                    "price": 54.90,
+                    "stock": 30,
+                    "gallery": [
+                        "https://down-br.img.susercontent.com/file/cn-11134207-7r98o-llr7cuicicdedc@resize_w450_nl.webp",
+                        "https://down-br.img.susercontent.com/file/cn-11134207-7r98o-llr7cuicgxsyad@resize_w450_nl.webp"
+                    ]
+                }
+        
+            ]
+        },
+        {
+            "id": "p002",
+            "active": true,
+            "name": "Capa Transparente",
+            "category": "Capas",
+            "subcategory": "Transparente",
+            "description": "Capa premium com toque aveludado, interior em microfibra e proteção completa para as câmeras.",
+            "basePrice": 49.90,
+            "promotionalPrice": null,
+            "flags": {
+                "isFeatured": true,
+                "isBestSeller": true,
+                "isNew": false
+            },
+            "tags": [
+                "transparente",
+                "proteção"
+            ],
+            "images": [
+                "https://images.tcdn.com.br/img/img_prod/1249456/capa_transparente_para_iphone_14_3735_1_a5abd9f9550c6f90950cce3d9c982c5f.png",
+                "https://a-static.mlcdn.com.br/%7Bw%7Dx%7Bh%7D/capa-capinha-transparente-para-iphone-14-pro-mbox/multiboxstore/vm0012/ef817c2f2f47b7bb0a7a103985904754.jpeg"
+            ],
+            "optionsSummary": {
+                "hasModelSelection": true,
+                "hasColorSelection": false,
+                "models": [
+                    "iPhone 17",
+                    "iPhone 17 Air",
+                    "iPhone 17 Pro",
+                    "iPhone 17 Pro Max",
+                    "iPhone 16",
+                    "iPhone 16 Plus",
+                    "iPhone 16 Pro",
+                    "iPhone 16 Pro Max",
+                    "iPhone 16e",
+                    "iPhone 15",
+                    "iPhone 15 Plus",
+                    "iPhone 15 Pro",
+                    "iPhone 15 Pro Max",
+                    "iPhone 14",
+                    "iPhone 14 Plus",
+                    "iPhone 14 Pro",
+                    "iPhone 14 Pro Max",
+                    "iPhone 13",
+                    "iPhone 13 mini",
+                    "iPhone 13 Pro",
+                    "iPhone 13 Pro Max",
+                    "iPhone 12",
+                    "iPhone 12 mini",
+                    "iPhone 12 Pro",
+                    "iPhone 12 Pro Max",
+                    "iPhone 11",
+                    "iPhone 11 Pro",
+                    "iPhone 11 Pro Max"
+                ],
+                "colors": [
+                    {
+                        "name": "Transparente",
+                        "hex": "#00000000",
+                        "cardImage": "https://down-br.img.susercontent.com/file/br-11134258-81z1k-mgqxcul8eyv469"
+                    }
+                ]
+            },
+            "variants": [
+                {
+                    "id": "iph17-transparente",
+                    "model": "iPhone 17",
+                    "color": "Transparente",
+                    "price": 59.90,
+                    "stock": 20,
+                    "gallery": [
+                        "https://down-br.img.susercontent.com/file/sg-11134201-7rbki-lpazkfso72l932@resize_w450_nl.webp",
+                        "https://down-br.img.susercontent.com/file/sg-11134201-7rbmk-lpb1jbnhv3lq4c@resize_w450_nl.webp"
+                    ]
+                },
+                
+                {
+                    "id": "iph16-transparente",
+                    "model": "iPhone 16",
+                    "color": "Transparente",
+                    "price": 54.90,
+                    "stock": 30,
+                    "gallery": [
+                        "https://down-br.img.susercontent.com/file/sg-11134201-7rbki-lpazkfso72l932@resize_w450_nl.webp",
+                        "https://down-br.img.susercontent.com/file/sg-11134201-7rbmk-lpb1jbnhv3lq4c@resize_w450_nl.webp"
+                    ]
+                }             
+            ]
+        },
+        {
+            "id": "p003",
+            "active": true,
+            "name": "Película de Vidro",
+            "category": "Películas",
+            "subcategory": "Película de Vidro",
+            "description": "Proteção de borda a borda.",
+            "basePrice": 29.90,
+            "promotionalPrice": null,
+            "flags": {
+                "isFeatured": true,
+                "isBestSeller": true,
+                "isNew": false
+            },
+            "tags": [
+                "vidro",
+                "proteção"
+            ],
+            "images": [
+                "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTZZSrWPH3lVl2p0uwddTXu6AjENNU96zJB2hOnFPpWMnnqwX85MxWNrSkDkBt4d7R56mUQwdzRBmy2cJs1nH9C35Vkop5NNf9XhZF1eYY91Fyz2rX4h0d21zdn473Qm7_w2Fv960oQ&usqp=CAc"
+            ],
+            "optionsSummary": {
+                "hasModelSelection": true,
+                "hasColorSelection": false,
+                "models": [
+                    "iPhone 17",
+                    "iPhone 17 Pro",
+                    "iPhone 16",
+                    "iPhone 15",
+                    "iPhone 14",
+                    "iPhone 13",
+                    "iPhone 12",
+                    "iPhone 11"
+                ],
+                "colors": []
+            },
+            "variants": [
+                {
+                    "sku": "iph17-pelicula-vidro",
+                    "model": "iPhone 17",
+                    "color": "Transparente",
+                    "price": 29.90,
+                    "stock": 100,
+                    "gallery": [
+                        "https://down-br.img.susercontent.com/file/br-11134258-7r98o-mbpr92sw6g6132",
+                        "https://down-br.img.susercontent.com/file/sg-11134201-824j0-mfd28h1ttkwdcb@resize_w450_nl.webp"
+                    ]
+                },
+                {
+                    "sku": "iph16-pelicula-vidro",
+                    "model": "iPhone 16",
+                    "color": "Transparente",
+                    "price": 29.90,
+                    "stock": 100,
+                    "gallery": [
+                        "https://down-br.img.susercontent.com/file/br-11134258-7r98o-mbpr92sw6g6132",
+                        "https://down-br.img.susercontent.com/file/sg-11134201-824j0-mfd28h1ttkwdcb@resize_w450_nl.webp"
+                    ]
+                },
+                {
+                    "sku": "iph15-pelicula-vidro",
+                    "model": "iPhone 15",
+                    "color": "Transparente",
+                    "price": 29.90,
+                    "stock": 100,
+                    "gallery": [
+                        "https://down-br.img.susercontent.com/file/br-11134258-7r98o-mbpr92sw6g6132",
+                        "https://down-br.img.susercontent.com/file/sg-11134201-824j0-mfd28h1ttkwdcb@resize_w450_nl.webp"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "p004",
+            "active": true,
+            "name": "Carregador Original Completo USB C 20W",
+            "category": "Carregadores",
+            "subcategory": "Fontes",
+            "description": "Carregamento Turbo.",
+            "basePrice": 89.90,
+            "promotionalPrice": null,
+            "flags": {
+                "isFeatured": true,
+                "isBestSeller": true,
+                "isNew": false
+            },
+            "tags": [
+                "energia"
+            ],
+            "images": [
+                "https://down-br.img.susercontent.com/file/sg-11134201-821d3-mgnriorlygb2f6@resize_w450_nl.webp"
+            ],
+            "optionsSummary": {
+                "hasModelSelection": true,
+                "hasColorSelection": false,
+                "models": [
+                    "iPhone 14",
+                    "iPhone 13",
+                    "iPhone 12",
+                    "iPhone 11"
+                ],
+                "colors": []
+            },
+            "variants": [
+                {
+                    "sku": "carregador-20W-completo",
+                    "model": "Universal",
+                    "color": "Branco",
+                    "price": 89.90,
+                    "stock": 50,
+                    "gallery": [
+                        "https://down-br.img.susercontent.com/file/sg-11134201-821do-mgnrirmlq1ov33@resize_w450_nl.webp",
+                        "https://down-br.img.susercontent.com/file/sg-11134201-821e1-mgnriqho9q1b7f@resize_w450_nl.webp"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "p005",
+            "active": true,
+            "name": "Cabo Lightning Apple USB-C",
+            "category": "Acessórios",
+            "subcategory": "Cabos",
+            "description": "Alta resistência.",
+            "basePrice": 59.90,
+            "promotionalPrice": null,
+            "flags": {
+                "isFeatured": true,
+                "isBestSeller": true,
+                "isNew": false
+            },
+            "tags": [
+                "cabo",
+                "1m"
+            ],
+            "images": [
+                "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MM0A3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=M1QzMm9ybmlkQ3d6ZGgvOEtLT2s2d2tuVHYzMERCZURia3c5SzJFOTlPakdhd3hTd0Z4eVU5dlRoTFZsS1dHQnF1RHVsWWtITU8zLy9oRVFmWitIakE"
+            ],
+            "optionsSummary": {
+                "hasModelSelection": true,
+                "hasColorSelection": false,
+                "models": [
+                    "1 Metro",
+                    "2 Metros"
+                ],
+                "colors": []
+            },
+            "variants": [
+                {
+                    "sku": "cab0-1m-usbc",
+                    "model": "1 Metro",
+                    "color": "Preto",
+                    "price": 59.90,
+                    "stock": 30,
+                    "gallery": [
+                        "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MM0A3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=M1QzMm9ybmlkQ3d6ZGgvOEtLT2s2d2tuVHYzMERCZURia3c5SzJFOTlPakdhd3hTd0Z4eVU5dlRoTFZsS1dHQnF1RHVsWWtITU8zLy9oRVFmWitIakE"
+                    ]
+                },
+                {
+                    "sku": "cab0-2m-usbc",
+                    "model": "2 Metro",
+                    "color": "Preto",
+                    "price": 59.90,
+                    "stock": 30,
+                    "gallery": [
+                        "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MM0A3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=M1QzMm9ybmlkQ3d6ZGgvOEtLT2s2d2tuVHYzMERCZURia3c5SzJFOTlPakdhd3hTd0Z4eVU5dlRoTFZsS1dHQnF1RHVsWWtITU8zLy9oRVFmWitIakE"
+                    ]
+                }
+            ]
+        }
+    ]
+}

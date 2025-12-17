@@ -1,0 +1,105 @@
+/* frontend/admin/css/login.css */
+:root { 
+    --bg: #f4f6f8; 
+    --primary: #4a148c; 
+    --primary-hover: #310a63;
+    --white: #fff; 
+    --error-bg: #fee2e2;
+    --error-text: #ef4444;
+    --border: #ddd;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Manrope', sans-serif; }
+
+body { 
+    background: var(--bg); 
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.login-card {
+    background: var(--white); 
+    padding: 40px; 
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+    width: 100%; 
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-card h1 { 
+    color: var(--primary); 
+    margin-bottom: 10px; 
+    font-size: 1.8rem; 
+}
+
+.login-card p.subtitle { 
+    color: #666; 
+    margin-bottom: 30px; 
+    font-size: 0.9rem; 
+}
+
+.group { 
+    margin-bottom: 20px; 
+    text-align: left; 
+}
+
+.group label { 
+    display: block; 
+    margin-bottom: 8px; 
+    font-weight: 600; 
+    font-size: 0.9rem; 
+    color: #555; 
+}
+
+.group input {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid var(--border); 
+    border-radius: 6px; 
+    font-size: 1rem;
+    transition: 0.2s;
+}
+
+.group input:focus { 
+    border-color: var(--primary); 
+    outline: none; 
+    box-shadow: 0 0 0 3px rgba(74, 20, 140, 0.1); 
+}
+
+button {
+    width: 100%; 
+    padding: 14px; 
+    background: var(--primary); 
+    color: white;
+    border: none; 
+    border-radius: 6px; 
+    font-weight: bold; 
+    font-size: 1rem; 
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover { 
+    background: var(--primary-hover); 
+    transform: translateY(-1px); 
+}
+
+button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.error-box { 
+    background: var(--error-bg); 
+    color: var(--error-text); 
+    padding: 10px; 
+    border-radius: 6px; 
+    margin-bottom: 20px; 
+    font-size: 0.9rem; 
+    display: none; 
+    text-align: left; 
+    border: 1px solid #fecaca;
+}

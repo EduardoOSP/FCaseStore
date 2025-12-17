@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCaseStore</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header>
+        <button class="btn-open-menu" aria-label="Abrir menu" aria-expanded="false">
+            <i class="fas fa-bars" aria-hidden="true"></i>
+        </button>
+
+        <nav class="mobile-menu"></nav>
+        <div class="overlay"></div>
+
+        <a href="/" class="logo">
+            <h1>FCaseStore</h1>
+        </a>
+
+        <div class="header-icons">
+            <a href="#" aria-label="Pesquisar"><i class="fas fa-search"></i></a>
+            <a href="#" aria-label="Fale conosco"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Minha conta"><i class="fas fa-user"></i></a>
+            <a href="#" aria-label="Carrinho" class="cart-link"><i class="fas fa-shopping-cart"></i><span class="header-cart-count">0</span></a>
+            
+        </div>
+    </header>
+
+    <main>
+        <!-- Banner Principal -->
+        <section class="banner-section">
+            <div class="banner-slider">
+                <div class="slider-track"></div>
+            </div>
+        </section>
+
+        <!-- Carrinho -->
+        <div class="cart-container"></div>
+        <div class="cart-overlay"></div>
+
+        <!-- Coleções -->
+        <section class="collections-section">
+            <h2 class="section-title">Coleções</h2>
+            <div class="collections-carousel">
+                <!-- Coleções serão inseridas aqui via JS -->
+            </div>
+        </section>
+
+        <!-- Destaques -->
+        <section class="destaques-section">
+            <h2 class="section-title">Destaques</h2>
+            <div class="destaques-grid">
+                <!-- Produtos serão inseridos aqui via JS -->
+            </div>
+        </section>
+
+        <!-- Mais Vendidos -->
+        <section class="best-sellers-section">
+            <h2 class="section-title">Mais Vendidos</h2>
+            <div class="best-sellers-carousel">
+                <!-- inseridos via JS -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer"></footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
